@@ -1,0 +1,14 @@
+{
+  "name": "dependabot-triage",
+  "description": "Dependabot alerts の脆弱性が、そのプロジェクトで実際に対処が必要かを判定するプラグイン",
+  "owner": {
+    "name": "yth401"
+  },
+  "plugins": [
+    {
+      "name": "dependabot-triage",
+      "source": "./",
+      "description": "Dependabot alerts の脆弱性について、プロジェクトの事情を踏まえて対処の要否と深刻度を判定する"
+    }
+  ]
+}
